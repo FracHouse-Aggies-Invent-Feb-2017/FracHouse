@@ -9,9 +9,9 @@ import com.badlogic.gdx.math.Vector2;
 
 public abstract class GameObject {
 
-    Vector2 coord;
-    Vector2 vel;
-    Texture image;
+    private Vector2 coord;
+    private Vector2 vel;
+    private static Texture image;
 
     public abstract void think();
     public abstract void draw();
